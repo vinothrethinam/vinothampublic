@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180199292-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-180199292-1');
+    </script>
+    <title>VINOTHAM</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBTROq6LuvF_IE1r46-T4AeTSV-0d7my8&callback=initMap&libraries=&v=weekly" defer></script>
+    <link rel="stylesheet" href="assets/css/map.css" />
+    <script src="assets/js/map.js"></script>
+    <!-- jsFiddle will insert css and js -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>VINOTHAM</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.menu.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/YouTubePopUp.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="loader">
+        <div class="loading">
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="vinotham-fixed-sidebar vinotham-sidebar-left">
+        <div class="vinotham-header-container">
+            <!-- Logo -->
+            <div class="logo">
+                <h1><a href="index.html">VINOTHAM<span>ARCHITECTs</span></a></h1>
+            </div>
+            <!-- Burger menu -->
+            <div class="vinotham-burger-menu">
+                <div class="vinotham-line-menu vinotham-line-half vinotham-first-line"></div>
+                <div class="vinotham-line-menu"></div>
+                <div class="vinotham-line-menu vinotham-line-half vinotham-last-line"></div>
+            </div>
+            <!-- Navigation menu -->
+            <nav class="vinotham-menu-fixed">
+                <ul>
+                    <li><a href="index.html#home" data-scroll-nav="0">Home</a></li>
+                    <li><a href="index.html#services" data-scroll-nav="1">Services</a></li>
+                    <li><a href="index.html#about" data-scroll-nav="2">About Us</a></li>
+                    <li><a href="index.html#projects" data-scroll-nav="3">Projects</a></li>
+                    <li><a href="index.html#blog" data-scroll-nav="4">News</a></li>
+                    <li><a href="test/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Menu social media -->
+            <div class="vinotham-menu-social-media">
+                <div class="social">
+                    <a href="#"><i class="ti-facebook"></i></a>
+                    <a href="#"><i class="ti-twitter"></i></a>
+                    <a href="https://www.instagram.com/abscissadesign/"><i class="ti-instagram"></i></a>
+                </div>
+                <div class="vinotham-menu-copyright">
+                    <p>© 2023 by VINOTHAM
+                        <a href="#"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="vinotham-side-content">
+        <!-- Lines -->
+        <div class="content-lines-wrapper">
+            <div class="content-lines-inner">
+                <div class="content-lines"></div>
+            </div>
+        </div>
+        <!-- Header Slider -->
+        <header class="header pos-re slider-fade" data-scroll-index="0">
+            <div class="owl-carousel owl-theme">
+                <div class="item bg-img" data-overlay-dark="1" data-background="assets/img/index/1920x10801.jpg">
+                    <div class="container text-center v-middle caption">
+                        <h4>RESIDENTAL</h4>
+                        <h1>ANBAZHAGAN RESIDENCE, TRICHY</h1>
+                        <a href="projects.html#discover" class="btn"><span>Discover More <i class="ti-arrow-right"></i></span></a>
+                    </div>
+                </div>
+                <div class="item bg-img" data-overlay-dark="1" data-background="assets/img/index/1920x10802.jpg">
+                    <div class="container text-center v-middle caption">
+                        <h4>ARCHITECTURE</h4>
+                        <h1>AJAY KUMAR, PUDUKKOTTAI</h1>
+                        <a href="projects.html#discover" class="btn"><span>Discover More <i class="ti-arrow-right"></i></span></a>
+                    </div>
+                </div>
+                <div class="item bg-img" data-overlay-dark="2" data-background="assets/img/index/1920x10803.jpg">
+                    <div class="container text-center v-middle caption">
+                        <h4>ARCHITECTURE</h4>
+                        <h1>BALASUBRAMANIYAN RESIDENCE, ARANTHAGI</h1>
+                        <a href="projects.html#discover" class="btn"><span>Discover More <i class="ti-arrow-right"></i></span></a>
+                    </div>
+                </div>
+                <div class="item bg-img" data-overlay-dark="2" data-background="assets/img/index/1920x10804.jpg">
+                    <div class="container text-center v-middle caption">
+                        <h4>ARCHITECTURE</h4>
+                        <h1>MR.giGANI RESIDENCE, PALLATUR, KARAIKUDI</h1>
+                        <a href="projects.html#discover" class="btn"><span>Discover More <i class="ti-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Services -->
+        <section class="services mt-100 pb-100" data-scroll-index="1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mb-20 text-center">
+                        <h6 class="small-title">What We Do</h6>
+                        <h4 class="title">Our Services</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item bg-1">
+                            <div class="con">
+                                <div class="numb">01</div>
+                                <h5>Architecture</h5>
+                                <p> Have you ever wondered why a building looks welcoming or creepy? Architecture has the power to make you feel happy or disgusted. All our buildings are designed with clients' needs in mind to make you feel positive.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item bg-2">
+                            <div class="con">
+                                <div class="numb">02</div>
+                                <h5>Interior Design</h5>
+                                <p> We all spend most of our time indoors. So why comprise on your interiors? We can help you create an exciting, motivating office or an ecstatic house. We make an effort to match the clients' preferences and to produce the
+                                    best environment for them. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item bg-3">
+                            <div class="con">
+                                <div class="numb">03</div>
+                                <h5>Urban Design</h5>
+                                <p> A great community can get the best person out of you. We will make sure to design every neighbourhood with the best circulation and provide every single person with ample sunlight, air, water and necessary sanitary facilities,
+                                    etc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section class="about mt-100 pb-100" data-scroll-index="2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-20">
+                        <h6 class="small-title">About Us</h6>
+                        <h4 class="title">About VINOTHAM</h4>
+                        <p>Vinotham Architects (VA) is a professionally managed architecture and design firm having its offices in Avudaiyarkoil, Pudukkottai and Chennai. The firm had its inception in 2010 under Architect N. Vinothkumar, who was the pioneer
+                            in creating awareness of architecture as a profession in Avudaiyarkoil, India. With a huge clientele, rich experience in the field and exploration into various typologies, VA has its growth laid on strong foundation </p>
+                        <p>We are evolving in architecture step by step and started our carier as a freelancer in pudukkottai, trichy and chennai after we started our design studio named Abscissa Design Studio later we developed our Studio as an Architecture
+                            Firm in 2018. </p>
+                        <h6 class="small-title">Philosophy</h6>
+                        <p>Architecture imparts emotions which differ from person to person based on their perspective, The philosophy of Vinotham is to concisely build the Architecture so as to perceive Positive Emotions.</p>
+                    </div>
+                    <div class="col-md-6 mb-20 image">
+                        <div class="img"> <img src="assets/img/25.png" alt="">
+                            <a class="vid" href="https://www.youtube.com/watch?v=UrkXWG9WgC8">
+                                <span class="vid-vinotham-button"><i class="ti-control-play"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="yearimg">
+                            <div class="numb">13</div>
+                        </div>
+                        <div class="year">
+                            <h6 class="small-title">IN ARCHITECTURE DESIGN</h6>
+                            <h4 class="title">Years of Experience</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects -->
+        <section class="projects mt-100 pb-100" data-scroll-index="3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mb-20 text-center">
+                        <h6 class="small-title">Portfolio</h6>
+                        <h4 class="title"><a href="projects.html">Our Projects</a></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item mb-50">
+                                <div class="position-re o-hidden"> <img src="assets/img/index/IDP6T340x510.jpg" alt=""> </div>
+                                <div class="con"> <span class="category">
+                                        <a href="projectsureshpdk.html">Architecture</a>
+                                    </span>
+                                    <h5><a href="projectsureshpdk.html">Mr.SURESH, PUDUKKOTTAI</a></h5>
+                                    <a href="projectsureshpdk.html"><i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="item mb-50">
+                                <div class="position-re o-hidden"> <img src="assets/img/index/IDP1T340x510.jpg" alt=""> </div>
+                                <div class="con"> <span class="category">
+                                        <a href="projectNatesan.html">Architecture</a>
+                                    </span>
+                                    <h5><a href="projectNatesan.html">Mr.NATESAN, KARAIKUDI</a></h5>
+                                    <a href="projectNatesan.html"><i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="item mb-50">
+                                <div class="position-re o-hidden"> <img src="assets/img/index/IDP2T340x510.jpg" alt=""> </div>
+                                <div class="con"> <span class="category">
+                                        <a href="projectManju.html">Architecture</a>
+                                    </span>
+                                    <h5><a href="projectManju.html">Mr.MANJU, KARAIKUDI</a></h5>
+                                    <a href="projectManju.html"><i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="item mb-50">
+                                <div class="position-re o-hidden"> <img src="assets/img/index/IDP3T340x510.jpg" alt=""> </div>
+                                <div class="con"> <span class="category">
+                                        <a href="projectChithambaram.html">Design</a>
+                                    </span>
+                                    <h5><a href="#">SURESH , MADURAI</a></h5>
+                                    <a href="projectChithambaram.html"><i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="item mb-50">
+                                <div class="position-re o-hidden"> <img src="assets/img/index/IDP4T340x510.jpg" alt=""> </div>
+                                <div class="con"> <span class="category">
+                                        <a href="project.html">Design</a>
+                                    </span>
+                                    <h5><a href="#">Home Design, BANGALORE</a></h5>
+                                    <a href="project.html"><i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="item mb-50">
+                                <div class="position-re o-hidden"> <img src="assets/img/index/IDP5T340x510.jpg" alt=""> </div>
+                                <div class="con"> <span class="category">
+                                        <a href="project.html">Design</a>
+                                    </span>
+                                    <h5><a href="project.html">Apartment, CHENNAI</a></h5>
+                                    <a href="project.html"><i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials -->
+        <section class="testimonial bg-img bg-fixed pos-re mt-100 pt-100 pb-100" data-overlay-dark="6" data-background="assets/img/index/1920x10803.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="testimonials"> <span class="icon"><img src="assets/img/left-quote.png" alt=""></span>
+                            <div class="owl-carousel owl-theme text-center">
+                                <div class="item">
+                                    <div class="client-area">
+                                        <h6>Vinoth Kumar</h6> <span>Chief Architect</span>
+                                    </div>
+                                    <p>" Any problems will have a simple solution "</p>
+                                </div>
+                                <div class="item">
+                                    <div class="client-area">
+                                        <h6>Vinoth Kumar</h6> <span>Chief Architect</span>
+                                    </div>
+                                    <p>" Expressing Architecture is like god's job "</p>
+                                </div>
+                                <div class="item">
+                                    <div class="client-area">
+                                        <h6>Vinoth Kumar</h6> <span>Architect Chief</span>
+                                    </div>
+                                    <p>" Good Design solution is construction of good Ideas A "</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Team -->
+        <section class="team mt-100 pb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mb-20 text-center">
+                        <h6 class="small-title">Professional</h6>
+                        <h4 class="title">Our Team</h4>
+                    </div>
+                    <div class="col-md-10 offset-md-1">
+                        <div class="owl-carousel owl-theme text-center">
+                            <div class="item">
+                                <div class="team-img"> <img src="assets/img/Vinod.jpeg" alt="">
+                                    <div class="info valign">
+                                        <div class="text-center full-width">
+                                            <div class="social">
+                                                <a href="#" class="icon"> <i class="ti-instagram"></i> </a>
+                                                <a href="#" class="icon"> <i class="ti-twitter"></i> </a>
+                                                <a href="#" class="icon"> <i class="ti-linkedin"></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6>Vinoth Kumar</h6> <span>Chief Architect</span>
+                            </div>
+                            <div class="item">
+                                <div class="team-img"> <img src="assets/img/Devi.jpeg" alt="">
+                                    <div class="info valign">
+                                        <div class="text-center full-width">
+                                            <div class="social">
+                                                <a href="#" class="icon"> <i class="ti-instagram"></i> </a>
+                                                <a href="#" class="icon"> <i class="ti-twitter"></i> </a>
+                                                <a href="#" class="icon"> <i class="ti-linkedin"></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6>Renuga Devi</h6> <span>Creative Architect</span>
+                            </div>
+                            <div class="item">
+                                <div class="team-img"> <img src="assets/img/chandra Bose.jpg" alt="">
+                                    <div class="info valign">
+                                        <div class="text-center full-width">
+                                            <div class="social">
+                                                <a href="#" class="icon"> <i class="ti-instagram"></i> </a>
+                                                <a href="#" class="icon"> <i class="ti-twitter"></i> </a>
+                                                <a href="#" class="icon"> <i class="ti-linkedin"></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6>Chandra Bose</h6> <span>Project Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-10 offset-md-1">
+                        <div class="owl-carousel owl-theme text-center">
+                            <div class="item">
+                                <div class="team-img"> <img src="" alt="">
+                                    <div class="info valign">
+                                        <div class="text-center full-width">
+                                            <div class="social">
+                                                <a href="#" class="icon"> <i class="ti-instagram"></i> </a>
+                                                <a href="#" class="icon"> <i class="ti-twitter"></i> </a>
+                                                <a href="#" class="icon"> <i class="ti-linkedin"></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6></h6> <span></span>
+                            </div>
+                            <div class="item">
+                                <div class="team-img"> <img src="assets/img/Prasanth.jpg" alt="">
+                                    <div class="info valign">
+                                        <div class="text-center full-width">
+                                            <div class="social">
+                                                <a href="#" class="icon"> <i class="ti-instagram"></i> </a>
+                                                <a href="#" class="icon"> <i class="ti-twitter"></i> </a>
+                                                <a href="#" class="icon"> <i class="ti-linkedin"></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6>Prasanth</h6> <span>Project Engineer</span>
+                            </div>
+                            <div class="item">
+                                <div class="team-img"> <img src="" alt="">
+                                    <div class="info valign">
+                                        <div class="text-center full-width">
+                                            <div class="social">
+                                                <a href="#" class="icon"> <i class="ti-instagram"></i> </a>
+                                                <a href="#" class="icon"> <i class="ti-twitter"></i> </a>
+                                                <a href="#" class="icon"> <i class="ti-linkedin"></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6></h6> <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog -->
+        <section class="blog mt-100 pb-100" data-scroll-index="4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mb-20">
+                        <h6 class="small-title">Our Blog</h6>
+                        <h4 class="title">Latest News</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="item">
+                            <div class="post-img">
+                                <div class="img">
+                                    <a href="blog.html"><img src="assets/img/IDB1T525x350.png" alt=""> </a>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <h6><a href="post.html">Trending in Modern Architecture 2020</a></h6>
+                                <div class="info"> <a href="blog.html"><b>Event</b> Dec 28, 2020 </a> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="item">
+                            <div class="post-img">
+                                <div class="img">
+                                    <a href="projectManju.html"><img src="assets/img/IDB2T525x350.jpg" alt=""> </a>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <h6><a href="projectManju.html">Budget Architecture and Design</a></h6>
+                                <div class="info"> <a href="projectManju.html"><b>Discover</b> Dec 26, 2020 </a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="contact mt-100 pb-100" data-scroll-index="5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12 mb-20">
+                        <h6 class="small-title">Get In Touch</h6>
+                        <h4 class="title">Contact Us</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="item bg-4">
+                            <div class="con">
+                                <h5>AVUDAIYARKOIL</h5>
+                                <p><i class="ti-home" style="font-size: 15px; color: #c5a47e;"></i> 6/132 A East Street, Avudaiyarkoil, Pudukkottai.Dt., Tamil nadu, India - 614618</p>
+                                <p><i class="ti-mobile" style="font-size: 15px; color: #c5a47e;"></i> +91 9500056463</p>
+                                <p><i class="ti-mobile" style="font-size: 15px; color: #c5a47e;"></i> +91 9500052726</p>
+                                <p><i class="ti-envelope" style="font-size: 15px; color: #c5a47e;"></i> contact@vinotham.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item bg-4">
+                            <div class="con">
+                                <h5>CHENNAI</h5>
+                                <p><i class="ti-home" style="font-size: 15px; color: #c5a47e;"></i> Plot No.19, Sri Mookambigai Nagar, 2nd Main Road, Iyappanthangal, Chennai - 600077</p>
+                                <p><i class="ti-mobile" style="font-size: 15px; color: #c5a47e;"></i> +91 9500056463</p>
+                                <p><i class="ti-mobile" style="font-size: 15px; color: #c5a47e;"></i> +91 9500052726</p>
+                                <p><i class="ti-envelope" style="font-size: 15px; color: #c5a47e;"></i> contact@vinotham.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item bg-4">
+                            <div class="con">
+                                <h5>PUDUKKOTTAI</h5>
+                                <p><i class="ti-home" style="font-size: 15px; color: #c5a47e;"></i> Ts no.9954 , Nizam complex , shop no- 4, Nizam colony, Pudukkottai.Dt., Tamil nadu, India - 622001 </p>
+                                <p><i class="ti-mobile" style="font-size: 15px; color: #c5a47e;"></i> +91 9500056463</p>
+                                <p><i class="ti-mobile" style="font-size: 15px; color: #c5a47e;"></i> +91 9500052726</p>
+                                <p><i class="ti-envelope" style="font-size: 15px; color: #c5a47e;"></i> contact@vinotham.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-100">
+                    <div class="col-md-6 offset-md-3">
+                        <form method="post" class="form" class="contact__form" action="mail.php">
+                            <!-- Form message -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                        Your message was sent successfully.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Form elements -->
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input name="name" type="text" placeholder="Your Name *" required> 
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="email" type="email" placeholder="Your Email *" required> 
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <input name="phone" type="number" placeholder="Your Number *" required> 
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <input name="subject" type="text" placeholder="Subject *" required> 
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn"><span>Send Message <i class="ti-arrow-right"></i></span></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients -->
+        <div class="clients text-center">
+            <h6 class="small-title">thanks to</h6>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 owl-carousel owl-theme">
+                        <div class="client-logo">
+                            <a href="#"><img src="assets/img/blender_logo.png" alt=""></a>
+                        </div>
+                        <div class="client-logo">
+                            <a href="#"><img src="assets/img/LibreCAD-2.1.3-Free-Download.jpg" alt=""></a>
+                        </div>
+                        <div class="client-logo">
+                            <a href="#"><img src="assets/img/New logo  png.png" alt=""></a>
+                        </div>
+                        <div class="client-logo">
+                            <a href="#"><img src="assets/img/1200px-Ubuntustudio_v3_logo-alt.svg.png" alt=""></a>
+                        </div>
+                        <div class="client-logo">
+                            <a href="#"><img src="assets/img/kisspng-gimp-free-and-open-source-software-image-editing-g-click-5ac90b95634913.1296311515231251414067.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="text-center pos-re">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 offset-md-8">
+                        <p>&copy; 2023 by VINOTHAM.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                SecureToken: "9513a513-702d-4fde-9808-953fe36cf19f"
+                To : 'vinothrethinam@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "This is the subject",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script>
+    <script src="assets/js/smtp.js"></script>
+    <script src="assets/js/jquery-3.0.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/scrollIt.min.js"></script>
+    <script src="assets/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.stellar.min.js"></script>
+    <script src="assets/js/YouTubePopUp.jquery.js"></script>
+    <script src="assets/js/validator.js"></script>
+    <script src="assets/js/autotype.js"></script>
+    <script src="assets/js/bootstrap.menu.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>
